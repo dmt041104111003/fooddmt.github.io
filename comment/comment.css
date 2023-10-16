@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+
+/* css logo */
+
+.logo {
+    height: 150px;
+    width: 150px;
+}
+
+
+/* thanh hiển thị */
+
+
+/* css thanh cố định */
+
+.header-top {
+    position: fixed;
+    /* Header cố định */
+    top: 0;
+    /* Header luôn ở trên cùng */
+    width: 100%;
+    z-index: 1;
+}
+
+
+/* css các list của thanh hiển thị */
+
+.css-tab {
+    width: 100%;
+    background-color: #044e0b;
+    color: #ffffff;
+    height: 140px;
+    box-shadow: 5px 5px 10px #5a5a5a, -5px -5px 10px #ffffff;
+}
+
+.css-a:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.css-ul {
+    list-style: none;
+    overflow: hidden;
+    display: block;
+    color: white;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.css-a {
+    text-decoration: none;
+    color: #21af58;
+    font-weight: 600;
+}
+
+.p-2>.css-a:hover {
+    color: #4eefec;
+    transform: scale(1.05);
+}
+
+
+/* main  */
+
+.css-main {
+    margin-top: 50px;
+}
+
+
+/* css distance */
+
+.css-distance {
+    padding-top: 125px;
+}
+
+
+/* code của ô tôi css lại 1 tí */
+
+.tieude {
+    margin-left: 10%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+h3 {
+    color: #149ddd;
+}
+
+.container {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding: auto;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
+}
+
+.section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #149ddd;
+    bottom: 0;
+    left: 0;
+}
+
+
+/* Định nghĩa kiểu cho ngôi sao màu vàng */
+
+.yellow-star {
+    color: #FFD700;
+    /* Màu vàng */
+}
+
+.div1 {
+    margin-left: 15%;
+}
+
+.div1 h3 {
+    margin-left: 30px;
+}
+
+.conten {
+    padding-top: 5px;
+}
+
+.review {
+    border: 2px solid red;
+    padding: 50px;
+    border-radius: 20px;
+    width: 500px;
+    height: 250px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+/* xoá code này */
+
+
+/* .logo {
+    position: absolute;
+    top: 10px;
+    right: 100px;
+    width: 300px;
+    opacity: 0.8;
+}
+
+.logo img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+} */
+
+.conten1 h3 {
+    text-align: center;
+    color: black;
+}
+
+.border {
+    border-radius: 20px;
+    border: 2px solid rgb(224, 9, 9);
+    width: 500px;
+    height: 300px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+
+/* code css của tôi */
+
+.css-img-cmt {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}

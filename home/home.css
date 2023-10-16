@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+
+/* css logo */
+
+.logo {
+    height: 150px;
+    width: 150px;
+}
+
+
+/* thanh hiển thị */
+
+.navbar-collapse {
+    background-color: #044e0b;
+    border-radius: 7px;
+}
+
+
+/* .show trong bootstrap nó thường đi kèm .collapse, .d-block, và .d-none. */
+
+
+/* CSS để căn đều khoảng cách giữa các mục <li> trong phần nav */
+
+
+/* CSS để căn đều logo và khoảng cách giữa các mục <li> trong phần nav */
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    /* Căn đều theo chiều ngang */
+    align-items: center;
+    /* Căn đều theo chiều dọc */
+}
+
+
+/* Điều chỉnh khoảng cách giữa các mục <li> */
+
+
+/* Điều chỉnh khoảng cách giữa các mục <li> bằng padding nếu cần */
+
+.navbar-nav .nav-item .css-a {
+    padding: 20px;
+    /* Điều chỉnh khoảng cách giữa các mục bằng padding */
+}
+
+
+/* Điều chỉnh màu và hiệu ứng khi hover trên các mục <li> */
+
+.navbar-nav .nav-item a:hover {
+    color: #4eefec;
+    /* Màu khi hover */
+    transform: scale(1.05);
+    /* Hiệu ứng khi hover */
+}
+
+
+/* Điều chỉnh màu và hiệu ứng khi hover trên các mục <li> */
+
+.navbar-nav .nav-item a:hover {
+    color: #4eefec;
+    /* Màu khi hover */
+    transform: scale(1.05);
+    /* Hiệu ứng khi hover */
+}
+
+
+/* css thanh cố định */
+
+.header-top {
+    position: fixed;
+    /* Header cố định */
+    top: 0;
+    /* Header luôn ở trên cùng */
+    width: 100%;
+    z-index: 1;
+    transition: all 0.3s;
+    /* Thêm hiệu ứng chuyển động */
+}
+
+
+/* css các list của thanh hiển thị */
+
+.css-tab {
+    width: 100%;
+    background-color: #044e0b;
+    height: 140px;
+    box-shadow: 5px 5px 10px #5a5a5a, -5px -5px 10px #ffffff;
+}
+
+.css-a {
+    text-decoration: none;
+    color: #21af58;
+    font-weight: 600;
+}
+
+.css-a:hover {
+    cursor: pointer;
+    color: #4eefec;
+    transform: scale(1.05);
+}
+
+.css-a:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.css-order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.css-ul-order {
+    border-radius: 39px;
+    box-shadow: 5px 5px 10px #5a5a5a, -5px -5px 10px #2d2626;
+}
+
+
+/* CSS cho các mục trong danh sách thả xuống */
+
+.css-ul-order .css-order {
+    margin-bottom: 10px;
+}
+
+
+/* Điều chỉnh độ cao của header khi màn hình nhỏ hơn 768px */
+
+@media (max-width: 768px) {
+    .header-top {
+        height: 100px;
+        /* Điều chỉnh độ cao cho màn hình nhỏ hơn 768px */
+    }
+}
+
+
+/* Điều chỉnh kích thước của logo khi màn hình nhỏ hơn 768px */
+
+@media (max-width: 768px) {
+    .logo {
+        height: 100px;
+        /* Điều chỉnh kích thước của logo */
+        width: 100px;
+    }
+}
+
+
+/* Điều chỉnh khoảng cách giữa các mục trong menu khi màn hình nhỏ hơn 768px */
+
+@media (max-width: 768px) {
+    .navbar-nav .nav-item {
+        margin: 5px 0px 5px 10px;
+        /* Điều chỉnh khoảng cách trái và phải giữa các mục */
+    }
+}
+
+
+/* add */
+
+
+/* CSS cho chế độ tối */
+
+.dark-mode {
+    background: #333;
+    color: white;
+}
+
+.dark-mode .css-tab {
+    background: #333;
+    color: white;
+}
+
+.dark-mode .css-ul-order {
+    background: #333;
+}
+
+.dark-mode .navbar-collapse {
+    background: #333;
+}
+
+.dark-mode .myInput {
+    background: #333;
+    color: white;
+}
+
+.dark-mode .custom-button {
+    background: #333;
+    color: white;
+}
+
+.dark-mode .button-inf {
+    background: #333;
+    color: white;
+}
+
+.dark-mode .card-food-img {
+    background: #333;
+    color: white;
+}
+
+
+/* css distance */
+
+.css-distance {
+    padding-top: 150px;
+}
+
+
+/* css button nav */
+
+.css-nav-button {
+    box-shadow: 5px 5px 10px #5a5a5a, -5px -5px 10px #2d2626;
+}
+
+.css-nav-button:hover {
+    border: 1px solid #009087;
+}

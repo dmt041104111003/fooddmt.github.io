@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<!-- code chung {-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- tiêu đề trên thanh web -->
+    <link rel="icon" href="../food/image/logo.png" type="image/png">
+    <!-- food css -->
+    <link rel="stylesheet " type="text/css " href="home.css ">
+    <!-- bootstrap icon -->
+    <link rel="stylesheet " href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css ">
+    <!-- boostrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css " rel="stylesheet ">
+    <!-- boostrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js "></script>
+
+    <title>TRANG CHỦ</title>
+</head>
+
+<body>
+    <!-- &nbsp;      cái này là tạo khoảng cách chữ với nhau  -->
+    <!-- thanh hiển thị -->
+    <header class="header-top">
+        <nav class="css-tab header-top navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="" href="../home/home.html"><img class="logo" src="../home/image/logo.png"></a>
+                <button class="navbar-toggler css-nav-button css-a" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="bi bi-list css-a"></span>
+              </button>
+                <div class="collapse navbar-collapse " id="collapsibleNavbar">
+                    <ul class=" navbar-nav ms-auto">
+
+                        <li class=" nav-item">
+
+                            <a class="css-a" href="../home/home.html "><span  class="bi bi-house-door">&nbsp;&nbsp;TRANG CHỦ</span></a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a class=" css-a" href="../food/food.html "><span class="bi bi-card-list">&nbsp;&nbsp;THỰC ĐƠN</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class=" css-a" href="../food/food.html "><span class="bi bi-pencil-square">&nbsp;&nbsp;ĐẶT BÀN</span></a>
+                        </li>
+                        <li class="nav-item  ">
+                            <menu class="dropdown">
+                                <a class="css-a dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="bi bi-chat-left-text">&nbsp;&nbsp;THÔNG TIN</span>
+                                </a>
+                                <ul class="dropdown-menu css-ul-order" aria-labelledby="dropdownMenuLink">
+                                    <li><a class="css-a css-order bi bi-telephone" href="#">&nbsp;&nbsp;LIÊN HỆ</a></li>
+                                    <li><a class="css-a css-order bi bi-chat-left-text" href="#">&nbsp;&nbsp;PHẢN HỒI</a></li>
+                                    <li><a class="css-a css-order bi bi-file-earmark-post" href="#">&nbsp;&nbsp;TUYỂN DỤNG</a></li>
+                                </ul>
+                            </menu>
+                        </li>
+                        <!-- add -->
+                        <li class="nav-item  ">
+                            <a class=" css-a" href="../food/food.html "><span class="bi bi-person-circle">&nbsp;&nbsp;ĐĂNG NHẬP</span></a>
+                        </li>
+                        <li class="nav-item  " onclick="toggleMode()">
+                            <i id="mode-icon" class="bi bi-moon css-a "></i>
+
+
+                        </li>
+                        <li class="nav-item  ">
+                            <a class="css-a" href="#">
+                                <span class="bi bi-bag-fill"></span>
+                                <span id="cart-count">0</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- add -->
+    <script src="home.js ">
+    </script>
+    <!-- /add -->
+</body>
+
+</html>
